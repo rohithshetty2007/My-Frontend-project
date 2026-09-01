@@ -1,0 +1,444 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Technologies</title>
+  <link rel="stylesheet" href="wanderghat.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+                    <a class="navbar-brand" href="#"><img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/f_auto/q_auto/app-icon-sand-512.png" alt="" class="image w-25" />Wanderghat</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#homeSection">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#destinationSection">Destination</a>
+                            <a class="nav-link" href="#sectiontours">Tours</a>
+                            <a class="nav-link" href="#contactSection">Contact</a>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="homeSection">
+        <div class="bg-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class=" text-left pt-5">
+                            <h1 class="banner-heading pt-5 pb-5">Karnataka, at walking pace.</h1>
+                            <p class="banner-paragraph pb-3">Coffee hills, monsoon waterfalls, granite temple towns and a quiet coast — travelled in small groups with guides who grew up there.</p>
+                            <div class="d-flex flex-row">
+                                <button class="button mr-2" onclick="display('sectiontours')">See the tours </button>
+                                <button class="btn btn-transparent">Browse destination</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-wherewego pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <h1 class="weg-heading1 mb-3">WHERE WE GO</h1>
+                        <h1 class="weg-heading2 mb-3">Three landscapes, six hours apart</h1>
+                        <p class="weg-description">Karnataka packs rainforest, ruins and coastline into one state. These are the three routes we run most often.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/e_enhance/dest-falls.jpg" alt="" class="image1 w-100" />
+                            <div class="card ">
+                                <h1 class="sub-heading m-3">Jog Falls & Sagara</h1>
+                                <p class="description ml-3">Western Ghats forest, plantation homestays and the country's tallest plunge waterfall in full monsoon flow.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Best: Jul – Oct</p>
+                                    <p class="card-description">3 days</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/f_auto/q_auto/clypfzus2pcqmlah9cky" alt="" class=" image1 w-100" />
+                            <div class="card ">
+                                <h1 class="sub-heading m-3">Hampi</h1>
+                                <p class="description ml-3">A 14th-century capital spread over boulder fields. Cycle between temples at sunrise, swim in the river by noon.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Best: Nov – Feb</p>
+                                    <p class="card-description">2 days</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/dest-coast.jpg" alt="" class=" image1 w-100" />
+                            <div class="card">
+                                <h1 class="sub-heading m-3">Gokarna Coast</h1>
+                                <p class="description ml-3">Cliff paths between five beaches, fishing villages, and dinner that arrived on a boat that morning.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Best: Oct – Mar</p>
+                                    <p class="card-description">4 days</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-howitworks pt-5 pb-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <h1 class="weg-heading1 mb-3">HOW IT WORKS</h1>
+                    <h1 class="weg-heading2 ">Book in three steps</h1>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card mt-3 p-3">
+                        <h1 class="special-heading text-center ml-3 mt-3">1</h1>
+                        <h1 class="sub-heading ml-3 ">Pick a route</h1>
+                        <P class="description ml-3">Choose one of our four itineraries, or tell us the dates you have free and we shape one around them.</P>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card mt-3 p-3">
+                        <h1 class="special-heading text-center ml-3 mt-3">2</h1>
+                        <h1 class="sub-heading ml-3 ">Send an enquiry</h1>
+                        <P class="description ml-3">Fill in the form on the contact page. We reply within one working day with availability and a full cost breakdown.</P>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card mt-3 p-3">
+                        <h1 class="special-heading text-center ml-3 mt-3">3</h1>
+                        <h1 class="sub-heading ml-3 ">Travel light</h1>
+                        <P class="description ml-3">Stays, transport and permits are arranged. You bring a rucksack, shoes that survive mud, and a rain jacket.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-wherewego p-3 mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mt-5">
+                    <img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/f_auto/q_auto/hero-ghats.jpg" alt="About Us" class="aboutus-image w-100" />
+                </div>
+                <div class="col-6">
+                    <h1 class="weg-heading1 mb-3 mt-5">ABOUT US</h1>
+                    <h1 class="weg-heading2 mb-3">Started by two people from Shivamogga</h1>
+                    <p class="description ">We began in 2019 by driving friends to the falls on weekends. Today we run small groups of eight or fewer, stay in family-run homestays, and pay our guides year-round rather than per trip.
+
+                        No coaches, no fifteen-stop days. One place at a time, long enough to notice it.</p>
+                    <button class="button mr-2 mt-3">Talk to us </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-howitworks pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 mt-5">
+                    <h1 class="sub-heading ml-3 ">Wanderghat</h1>
+                    <P class="description ml-3">Small-group travel across Karnataka since 2019.</p>
+                </div>
+                <div class="col-4">
+                    <div class="mt-5">
+                        <h1 class="sub-heading ml-3">Pages</h1>
+                        <P class="description ml-3" style="color:#95cf91;">Home</p>
+                        <P class="description ml-3" style="color:#95cf91;">Destinations</p>
+                        <P class="description ml-3" style="color:#95cf91;">Tours</p>
+                        <P class="description ml-3" style="color:#95cf91;">Contact</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="mt-5">
+                        <h1 class="sub-heading ml-3">Reach us</h1>
+                        <P class="description ml-3" style="color:#95cf91;">hello@wanderghat.example</p>
+                        <P class="description ml-3" style="color:#95cf91;">+91 80000 00000</p>
+                        <P class="description ml-3">Shivamogga, Karnataka</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <hr class="hr-line">
+                    <P class="description ml-3">© 2026 Wanderghat. Sample site built with HTML and CSS only. Photography is illustrative.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="destinationSection">
+        <div class="bg-wherewego pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <h1 class="weg-heading1 mb-3">Destinations</h1>
+                        <h1 class="weg-heading2 mb-3">Six places worth the drive</h1>
+                        <p class="weg-description">Each entry lists the season that suits it best. Karnataka changes character completely between monsoon and winter, so timing matters more than distance.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/e_enhance/dest-falls.jpg" alt="Jog Falls" class="image1 w-100" />
+                            <div class="card ">
+                                <h1 class="sub-heading m-3">Jog Falls</h1>
+                                <p class="description ml-3">Four separate cascades falling over 250 metres. Loudest and fullest right after heavy rain.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Shivamogga district</p>
+                                    <p class="card-description">Jul – Oct</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/f_auto/q_auto/clypfzus2pcqmlah9cky" alt="Hampi" class=" image1 w-100" />
+                            <div class="card ">
+                                <h1 class="sub-heading m-3">Hampi</h1>
+                                <p class="description ml-3">Ruins of the Vijayanagara capital scattered across 26 square kilometres of granite.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Vijayanagara district</p>
+                                    <p class="card-description">Nov – Feb</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/dest-coast.jpg" alt="Gokarna" class=" image1 w-100" />
+                            <div class="card">
+                                <h1 class="sub-heading m-3">Gokarna</h1>
+                                <p class="description ml-3">A temple town with five beaches strung along a cliff walk south of it.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Uttara Kannada</p>
+                                    <p class="card-description">Oct – Mar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/f_auto/q_auto/hero-ghats.jpg" alt="Agumbe" class=" image1 w-100" />
+                            <div class="card">
+                                <h1 class="sub-heading m-3">Agumbe</h1>
+                                <p class="description ml-3">Rainforest ridge known for sunsets over the Arabian Sea and some of India's heaviest rainfall.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Shivamogga district</p>
+                                    <p class="card-description">Oct – Feb</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/e_enhance/dest-falls.jpg" alt="Kodachadri" class="image1 w-100" />
+                            <div class="card ">
+                                <h1 class="sub-heading m-3">Kodachadri</h1>
+                                <p class="description ml-3">A day trek through shola grassland to a peak at 1,343 metres, with a jeep option for the last stretch.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Shivamogga district</p>
+                                    <p class="card-description">Nov – Feb</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/dest-coast.jpg" class=" image1 w-100" />
+                            <div class="card">
+                                <h1 class="sub-heading m-3">Murudeshwar</h1>
+                                <p class="description ml-3">Coastal temple town, calm water, and boats out to Netrani island for snorkelling.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">Uttara Kannada</p>
+                                    <p class="card-description">Nov – May</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiontours">
+        <div class="bg-wherewego pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <h1 class="weg-heading1 mb-3">Tours</h1>
+                        <h1 class="weg-heading2 mb-3">Four itineraries, eight travellers each</h1>
+                        <p class="weg-description">Prices are per person on twin sharing and include stays, transport from Shivamogga or Hubballi, a local guide and all entry fees. Flights and lunches on travel days are not included.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/e_enhance/dest-falls.jpg" alt="Monsoon Falls" class="image1 w-100" />
+                            <div class="card ">
+                                <h1 class="sub-heading m-3">Monsoon Falls Circuit</h1>
+                                <p class="description ml-3">Jog Falls, Sirsi, and two plantation stays near Sagara. Slow mornings, short forest walks, chai on a veranda while it pours.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">3 days · 2 nights</p>
+                                    <p class="card-description">₹14,500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/f_auto/q_auto/clypfzus2pcqmlah9cky" alt="Hampi" class=" image1 w-100" />
+                            <div class="card ">
+                                <h1 class="sub-heading m-3">Hampi by Bicycle</h1>
+                                <p class="description ml-3">Sunrise at Matanga Hill, the Vittala complex before the crowds, and a coracle crossing to the north bank.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">2 days · 2 nights</p>
+                                    <p class="card-description">₹11,200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/dest-coast.jpg" alt="Gokarna" class=" image1 w-100" />
+                            <div class="card">
+                                <h1 class="sub-heading m-3">Gokarna Cliff Walk</h1>
+                                <p class="description ml-3">Five beaches on foot over three days, a night in a beach hut, and seafood cooked by the family that hosts us</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">4 days · 3 nights</p>
+                                    <p class="card-description">₹18,900</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="shadow shadow-card  m-3">
+                            <img src="https://res.cloudinary.com/pkhwncll/image/upload/c_scale,h_600,w_900/f_auto/q_auto/hero-ghats.jpg" alt="Ghats to Coast" class=" image1 w-100" />
+                            <div class="card">
+                                <h1 class="sub-heading m-3">Ghats to Coast</h1>
+                                <p class="description ml-3">Our long route: Agumbe rainforest, Kodachadri ridge, then down the ghat road to the sea at Murudeshwar.</p>
+                                <hr class="hr-line">
+                                <div class="d-flex flex-row justify-content-between m-2">
+                                    <p class="description">6 days · 5 nights</p>
+                                    <p class="card-description">₹27,400</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bg-howitworks pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <h1 class="weg-heading1 mb-3">Sample plan</h1>
+                        <h1 class="weg-heading2 mb-3">Monsoon Falls Circuit, day by day</h1>
+                        <p class="description ">An honest version, including the parts where nothing happens.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card p-3">
+                            <h1 class="special-heading text-center ml-3 mt-3">1</h1>
+                            <h1 class="sub-heading ml-3 ">Day one — Shivamogga to Sagara</h1>
+                            <P class="description ml-3">Pick-up at 8am, breakfast on the road, arrive at the plantation homestay by noon. Afternoon walk through arecanut and pepper. Dinner is akki rotti and local greens.</P>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mt-3 p-3">
+                            <h1 class="special-heading text-center ml-3 mt-3">2</h1>
+                            <h1 class="sub-heading ml-3 ">Day two — Jog Falls</h1>
+                            <P class="description ml-3">Early start to reach the falls before the buses. Viewpoint, then the stepped path down if the rock is dry enough. Evening free at the homestay.</P>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card mt-3 p-3">
+                            <h1 class="special-heading text-center ml-3 mt-3">3</h1>
+                            <h1 class="sub-heading ml-3 ">Day three — Sirsi and home</h1>
+                            <P class="description ml-3">Marikamba temple, a coffee-roasting stop, and back to Shivamogga by 6pm.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <button class="button mr-2 mt-3">check available dates </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactSection">
+        <div class="bg-wherewego pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <h1 class="weg-heading1 mb-3">Contact</h1>
+                        <h1 class="weg-heading2 mb-3">Tell us when you are free</h1>
+                        <p class="weg-description">We answer every enquiry within one working day. If you already know the tour and dates, mention them and we will send a full quote straight away.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h1 class="weg-heading1 mb-3">Or reach us directly</h1>
+                        <h1 class="weg-heading2 mb-3">We are usually on the road</h1>
+                        <p class="weg-description">Calls are best between 10am and 7pm IST. Email gets a written itinerary, which is easier to compare.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mt-3">
+                            <h1 class="sub-heading ml-3">Email</h1>
+                            <P class="description ml-3" style="color:#95cf91;">hello@wanderghat.example</p>
+
+                        </div>
+                        <div class="mt-3">
+                            <h1 class="sub-heading ml-3">Phone</h1>
+                            <P class="description ml-3" style="color:#95cf91;">+91 80000 00000</p>
+                        </div>
+                        <div class="mt-3">
+                            <h1 class="sub-heading ml-3">Office</h1>
+                            <P class="description ml-3">2nd Cross, Gandhi Bazaar, Shivamogga 577201, Karnataka</p>
+                        </div>
+                        <div class="mt-3">
+                            <h1 class="sub-heading ml-3">Response time</h1>
+                            <P class="description ml-3">Within one working day, Monday to Saturday</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <hr class="hr-line">
+                        <P class="description ml-3">© 2026 Wanderghat. Sample site built with HTML and CSS only. Photography is illustrative.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
